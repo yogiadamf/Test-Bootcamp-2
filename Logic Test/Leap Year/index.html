@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="leapyear.js" defer></script>
+    <title>Find Leap Year</title>
+</head>
+<body>
+    <h1>Find Leap Year</h1>
+    
+    Start year: <input id="st_year"><br>
+    End year: <input id="end_year"><br>
+    <button onclick="
+        var start = document.getElementById('st_year');
+        var end = document.getElementById('end_year');
+        var el =  document.getElementById('s0');
+        if (start && end && el) {
+        el.innerHTML = getLeapYears(start.value, end.value).join(',');}">List leapyears</button><br>
+
+<span id="s0"></span>
+</body>
+</html>
