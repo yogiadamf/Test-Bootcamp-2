@@ -1,5 +1,7 @@
 # todolist_test_bootcamp
 
+Untuk fitur loginya masih belum bisa
+
 A new Flutter project.
 
 ## Getting Started
